@@ -121,7 +121,9 @@ Demand-Forecasting-Case-Study/
 │       └── forecast.csv
 │
 ├── presentation/
-│   └── Business_Summary.pdf
+│   └── Summary.pdf
+│   └── Summary.jpg
+|   
 │
 │
 ├── README.md
@@ -441,8 +443,22 @@ The developed demand forecasting pipeline provides actionable insights that can 
 - Enhance customer satisfaction through better product availability.
 
 Although this project is developed as a case study, the forecasting workflow demonstrates how machine learning can be applied to solve real-world demand planning problems in the retail industry.
+
 ---
 
+# **Business Summary Presentation**
+
+The following executive summary slide presents the key business insights from the project, including the business problem, demand drivers, forecasting performance, and expected business impact.
+
+<p align="center">
+    <img src="presentation/Summary.jpg" alt="Business Summary" width="900">
+</p>
+
+The presentation is also available as a PDF:
+
+- 📄 [Summary.pdf](presentation/Summary.pdf)
+
+---
 # **Installation**
 
 Follow the steps below to set up the project locally.
