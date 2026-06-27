@@ -49,7 +49,7 @@ The primary objectives of this project are to:
 
 - Perform comprehensive **Exploratory Data Analysis (EDA)**.
 - Assess data quality and identify demand patterns.
-- Analyze the impact of promotional campaigns.
+- Identify the key factors driving product demand, including seasonality, historical demand, and promotional campaigns.
 - Engineer meaningful time-series features.
 - Train and compare multiple forecasting models.
 - Optimize model performance through hyperparameter tuning.
@@ -238,6 +238,18 @@ The analysis included:
 The insights obtained during the EDA phase guided the feature engineering process and supported the selection of appropriate forecasting models.
 
 ---
+
+## **Demand Drivers Identified**
+
+The exploratory analysis revealed several key factors that influence product demand:
+
+- Historical Demand: Previous demand values were the strongest predictor of future demand, motivating the creation of lag features.
+- Seasonality: Demand exhibited recurring weekly and monthly patterns, indicating the presence of seasonal purchasing behaviour.
+- Promotions: Promotional campaigns consistently increased demand for the affected supermarket–SKU combinations.
+- Demand Trends: Rolling averages and rolling standard deviations captured short-term demand trends and fluctuations, improving the model’s ability to forecast future demand.
+- Product and Store Differences: Demand varied across different SKUs and supermarkets, highlighting the importance of modelling each supermarket–SKU combination individually.
+
+These insights informed the feature engineering strategy and guided the selection of predictive variables used during model development.
 
 # **Feature Engineering**
 
